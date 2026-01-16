@@ -1,52 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Azar Tolouee | Data Scientist & ML Engineer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 1000px;
-      margin: auto;
-      padding: 40px;
-      line-height: 1.6;
-      color: #222;
-      background-color: #f9f9f9;
-    }
-    h1, h2 {
-      color: #0a3d62;
-    }
-    h2 {
-      border-bottom: 2px solid #eee;
-      padding-bottom: 5px;
-      margin-top: 40px;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    .section {
-      margin-bottom: 30px;
-    }
-    .role {
-      font-weight: bold;
-      margin-top: 20px;
-    }
-    .date {
-      float: right;
-      color: #666;
-    }
-    .clear {
-      clear: both;
-    }
-    a {
-      color: #0a3d62;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>Azar Tolouee | Data Scientist & ML Engineer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px;
+    line-height: 1.6;
+    color: #222;
+    background-color: #f4f4f9;
+  }
+  h1, h2 {
+    color: #0a3d62;
+  }
+  h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+    margin-top: 40px;
+  }
+  p {
+    margin: 5px 0 15px;
+  }
+  a {
+    color: #0a3d62;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  .section {
+    margin-bottom: 40px;
+  }
+  .role {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .date {
+    float: right;
+    color: #666;
+  }
+  .clear {
+    clear: both;
+  }
+  .project-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  .skills span {
+    display: inline-block;
+    background: #0a3d62;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: 3px;
+    font-size: 0.9em;
+  }
+</style>
 </head>
 
 <body>
@@ -56,32 +80,26 @@
   Data Scientist & Machine Learning Engineer<br>
   NLP · Deep Learning · LLMs · MLOps<br>
   Toronto, Canada<br>
-  <a href="https://github.com/azar-tolouee">GitHub</a> | 
-  <a href="https://www.linkedin.com">LinkedIn</a>
+  <a href="https://github.com/azar-tolouee" target="_blank">GitHub</a> | 
+  <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
 </p>
 
 <div class="section">
 <h2>Profile</h2>
 <p>
-Data Scientist and Machine Learning Engineer with 5+ years of experience
-designing, training, and deploying production-grade ML systems across healthcare,
-finance, and industrial domains. Hands-on expertise in NLP, Transformers, LLMs,
-computer vision, and end-to-end MLOps pipelines. Ph.D.-trained researcher with
-a track record of translating complex data into actionable insights and scalable
-ML solutions.
+Data Scientist & ML Engineer with 5+ years of experience designing, training, and deploying production-grade ML systems across healthcare, finance, and industrial applications. Expert in NLP, Transformers, LLMs, computer vision, and MLOps pipelines. Ph.D.-trained researcher with a record of turning complex data into actionable insights.
 </p>
 </div>
 
 <div class="section">
 <h2>Technical Skills</h2>
-<ul>
-  <li><strong>Programming:</strong> Python, SQL, C/C++, MATLAB, JavaScript</li>
-  <li><strong>Machine Learning & AI:</strong> PyTorch, scikit-learn, XGBoost, Transformers, LangChain, NLP, Computer Vision, LLMs</li>
-  <li><strong>Data Engineering:</strong> Data pipelines, ETL, feature engineering, API-based ingestion</li>
-  <li><strong>MLOps & DevOps:</strong> Docker, CI/CD, Jenkins, Git, reproducible pipelines</li>
-  <li><strong>Databases:</strong> PostgreSQL, MySQL, NoSQL</li>
-  <li><strong>Cloud Platforms:</strong> AWS, Azure, GCP</li>
-</ul>
+<div class="skills">
+  <span>Python</span><span>SQL</span><span>C/C++</span><span>MATLAB</span><span>JavaScript</span>
+  <span>PyTorch</span><span>scikit-learn</span><span>XGBoost</span><span>Transformers</span><span>LangChain</span>
+  <span>NLP</span><span>Computer Vision</span><span>LLMs</span><span>Docker</span><span>CI/CD</span>
+  <span>PostgreSQL</span><span>MySQL</span><span>NoSQL</span><span>AWS</span><span>Azure</span>
+  <span>GCP</span>
+</div>
 </div>
 
 <div class="section">
@@ -90,59 +108,62 @@ ML solutions.
 <p class="role">Data Scientist (Freelance) – Outlier <span class="date">Apr 2025 – Present</span></p>
 <div class="clear"></div>
 <ul>
-  <li>Designed data-driven analytical frameworks on multi-year emergency healthcare data using temporal, geospatial, and predictive modeling.</li>
-  <li>Applied NLP techniques including semantic similarity, NER, and multi-label classification to automate claims processing and sentiment analysis.</li>
-  <li>Trained Transformer-based and XGBoost models to detect burnout, depression, stress, and anxiety from clinical interview text.</li>
+  <li>Designed ML frameworks on multi-year emergency healthcare data using temporal, geospatial, and predictive modeling.</li>
+  <li>Built NLP pipelines for semantic similarity, NER, and multi-label classification for automation and analytics.</li>
+  <li>Trained Transformer and XGBoost models to detect burnout, depression, stress, and anxiety from clinical interview text.</li>
 </ul>
 
 <p class="role">Research Associate – Software Developer, Ontario Tech University <span class="date">Apr 2024 – Mar 2025</span></p>
 <div class="clear"></div>
 <ul>
-  <li>Built high-performance Python pipelines for low-latency ingestion and validation of large-scale, high-frequency market data.</li>
-  <li>Developed ML-based frameworks to optimize trading strategy parameters via systematic backtesting.</li>
-  <li>Implemented real-time order execution modules integrated with ML-optimized strategies, achieving 4× system performance improvement and over 200% annual profitability.</li>
+  <li>Built high-performance pipelines for real-time ingestion and validation of high-frequency market data.</li>
+  <li>Developed ML-based trading strategy optimization frameworks with backtesting and parameter tuning.</li>
+  <li>Implemented live execution modules, achieving 4× performance improvement and 200%+ profitability.</li>
 </ul>
 
 <p class="role">Software Developer, Dapcco Waterproofing Inc <span class="date">Jun 2022 – Mar 2023</span></p>
 <div class="clear"></div>
 <ul>
-  <li>Developed an AI-powered defect detection web application using computer vision pipelines.</li>
-  <li>Implemented a LangChain chatbot to generate automated repair cost estimates based on defect classification and user input.</li>
-  <li>Containerized and deployed production systems with Docker for scalable, real-time inference.</li>
+  <li>Developed AI-based defect detection application with computer vision pipeline.</li>
+  <li>Integrated LangChain chatbot for automated repair cost estimation based on user input and model predictions.</li>
+  <li>Containerized and deployed real-time inference systems using Docker.</li>
 </ul>
 
 <p class="role">Data Scientist, SharpestMinds <span class="date">Mar 2020 – Apr 2021</span></p>
 <div class="clear"></div>
 <ul>
-  <li>Developed a sentiment analysis platform using Twitter API and BERT-based models for emotion classification.</li>
-  <li>Improved sentiment classification accuracy by 8% over SVM and LSTM baselines via transformer fine-tuning.</li>
-</ul>
-
-<p class="role">Mechatronic Software Engineer, Multimatic Inc <span class="date">Apr 2021 – Mar 2022</span></p>
-<div class="clear"></div>
-<ul>
-  <li>Designed and tested model-based vehicle controllers and ECU diagnostics in MATLAB/Simulink and C/C++.</li>
-  <li>Integrated ECU software into Jenkins CI/CD pipelines and ensured functional safety compliance (ISO 26262).</li>
+  <li>Built a BERT-based sentiment analysis platform for live Twitter feeds, improving accuracy by 8% over SVM/LSTM baselines.</li>
 </ul>
 
 </div>
 
 <div class="section">
 <h2>Selected ML Projects</h2>
-<ul>
-  <li>
-    <strong>Healthcare NLP & Mental Health Risk Detection:</strong> Transformer-based multi-label system for burnout, depression, and anxiety screening from clinical interview text.
-  </li>
-  <li>
-    <strong>Algorithmic Trading Optimization:</strong> ML framework for backtesting, parameter optimization, and real-time execution of trading strategies.
-  </li>
-  <li>
-    <strong>AI Waterproofing Defect Detection System:</strong> Computer vision pipeline combined with LangChain chatbot for automated diagnosis and cost estimation.
-  </li>
-  <li>
-    <strong>Social Media Sentiment Analysis:</strong> BERT-based system for live Twitter feed emotion classification, integrated into scalable Flask backend.
-  </li>
-</ul>
+
+<div class="project-card">
+  <strong>Healthcare NLP & Mental Health Risk Detection</strong><br>
+  Transformer-based multi-label model detecting burnout, depression, and anxiety from clinical text.<br>
+  <a href="https://github.com/azar-tolouee/healthcare-nlp" target="_blank">GitHub Repo</a>
+</div>
+
+<div class="project-card">
+  <strong>Algorithmic Trading Optimization System</strong><br>
+  ML framework for backtesting, parameter optimization, and real-time execution.<br>
+  <a href="https://github.com/azar-tolouee/trading-ml" target="_blank">GitHub Repo</a>
+</div>
+
+<div class="project-card">
+  <strong>AI Waterproofing Defect Detection</strong><br>
+  Computer vision pipeline integrated with LangChain chatbot for automated defect diagnosis and cost estimation.<br>
+  <a href="https://github.com/azar-tolouee/waterproofing-ai" target="_blank">GitHub Repo</a>
+</div>
+
+<div class="project-card">
+  <strong>Social Media Sentiment Analysis</strong><br>
+  BERT-based system for live Twitter feed emotion classification with Flask backend.<br>
+  <a href="https://github.com/azar-tolouee/twitter-sentiment" target="_blank">GitHub Repo</a>
+</div>
+
 </div>
 
 <div class="section">
